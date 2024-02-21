@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import MainLayout from '../layout/MainLayout';
 
-function Dashboard() {
+
+const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <MainLayout>
+      <div className='text-dark'>Dashboard Content</div>
+    </MainLayout>
+  );
+};
 
-export default Dashboard
+export default Dashboard;

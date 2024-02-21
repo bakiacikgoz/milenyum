@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dashboard from './components/pages/Dashboard'; 
+import Blog from './components/pages/Blog';
 
-function App() {
+const App = () => {
   return (
-      <>
-        Milenyum AI
-      </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/Blog" element={<Blog />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
