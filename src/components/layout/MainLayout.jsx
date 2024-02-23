@@ -4,7 +4,7 @@ import './MainLayout.css';
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="mainLayout">
+    <div className="mainLayout dark:bg-slate-700">
       <Sidebar />
       <div className="content p-4 sm:ml-64">
         {children} 
@@ -12,5 +12,6 @@ const MainLayout = ({ children }) => {
     </div>
   );
 };
+
 
 export default MainLayout;
