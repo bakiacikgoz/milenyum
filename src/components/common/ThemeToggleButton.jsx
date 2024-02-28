@@ -17,7 +17,7 @@ const ThemeToggleButton = () => {
 
   return (
     <>
-        <button type="button" onClick={toggleTheme} className="text-white bg-gradient-to-r from-black to-slate-950 hover:bg-gradient-to-br rounded-full p-3 absolute top-2 right-2">{icon}</button>
+        <button type="button" onClick={toggleTheme} className="text-white bg-gradient-to-r from-black to-slate-950 hover:bg-gradient-to-br rounded-full p-3 absolute top-2 right-2 z-50">{icon}</button>
     </>
   );
 };

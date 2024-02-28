@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ThemeToggleButton from '../common/ThemeToggleButton';
 
 const MainLayout = ({ children }) => {
@@ -94,7 +94,7 @@ const MainLayout = ({ children }) => {
 
         <div className="p-4 sm:ml-64">
           <div className="p-4">
-            <div className="grid grid-cols-1 gap-4 mb-4">
+            <div className=" mb-4">
               {children}
             </div>
           </div>

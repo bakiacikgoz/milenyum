@@ -1,7 +1,6 @@
 import React from 'react';
-import MainLayout from '../layout/MainLayout';
-import ThemeToggleButton from '../common/ThemeToggleButton';
-import DashButton from '../common/DashButton';
+import MainLayout from '../../layout/MainLayout';
+import DashButton from '../../common/DashButton';
 
 const Dashboard = () => {
   return (
@@ -16,6 +15,9 @@ const Dashboard = () => {
             </div>
             <div className="w-full lg:w-2/12 p-1">
                 <DashButton logo="Ben" icerik={<><h6 className='text-3xl font-bold'>0</h6> <span>ürün</span></>}/>
+            </div>
+            <div className="w-full lg:w-2/12 p-1">
+                <DashButton logo="Ali" icerik={<><h6 className='text-3xl font-bold'>5</h6> <span>rahman</span></>}/>
             </div>
           </div>
       </div>
