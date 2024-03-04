@@ -6,7 +6,7 @@ function CategoryAdd() {
   return (
     <>
     <MainLayout>
-      <div className="bg-white  dark:bg-slate-800 rounded-lg p-5 shadow-lg">
+      <div className="bg-white  dark:bg-slate-800 rounded-lg p-5 shadow-lg mb-10">
         <h1 className="text-black dark:text-white text font-bold border-b-2 dark:border-b-slate-900  border-slate-800 pb-2 uppercase">
           Kategori Ekle
         </h1>
@@ -40,6 +40,7 @@ function CategoryAdd() {
           </div>
         </div>
       </div>
+      <Categories/>
       </MainLayout>
     </>
   );
